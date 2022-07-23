@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:text="MARQUE : " />
+
+    <Spinner
+        android:id="@+id/spinnermarque"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:text="MODELE : " />
+
+    <Spinner
+        android:id="@+id/spinnermodele"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="85dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:text="MOTORISATION : " />
+
+    <Spinner
+        android:id="@+id/spinnermotorisation"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="155dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:text="CARBURANT : " />
+
+    <Spinner
+        android:id="@+id/spinnercarburant"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="225dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:text="HYBRIDE : " />
+
+    <Spinner
+        android:id="@+id/spinnerhybride"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="295dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="360dp"
+        android:layout_centerHorizontal="true"
+        android:text="Consommation CO2" />
+
+    <TextView
+        android:id="@+id/valider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="490dp"
+        android:textColor="@color/teal_200"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"  />
+</RelativeLayout>
